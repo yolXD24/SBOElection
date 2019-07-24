@@ -3,7 +3,7 @@
 define('DB_SERVER', 'remotemysql.com');
 define('DB_USERNAME', 'drb4x76fQU');
 define('DB_PASSWORD', 'gKBEP1wVs5');
-define('DB_NAME', 'remotemysql.com');
+define('DB_NAME', 'drb4x76fQU');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME,3306);
