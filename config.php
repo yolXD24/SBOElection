@@ -6,7 +6,7 @@ define('DB_PASSWORD', 'gKBEP1wVs5');
 define('DB_NAME', 'remotemysql.com');
  
 /* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME,3306);
  
 // Check connection
 if($link === false){
